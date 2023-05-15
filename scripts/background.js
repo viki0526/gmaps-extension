@@ -67,7 +67,7 @@ async function loadAPI() {
     };
 
     foo({
-        key: "AIzaSyCm77Fg5y6QruUhBnbRSk2vDKTMS_HFI60",
+        key: MAPS_API_KEY,
         v: "weekly",
         libraries: "maps"
         // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).

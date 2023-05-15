@@ -27,9 +27,7 @@ function main() {
         apiResult = JSON.parse(message.data);
         if (apiResult != null && apiResult != undefined && apiResult.length > 0) {
             sendResponse({message: 'API data received successfully'});
-            loadAPI().then(() => {
-                processData(apiResult);
-            })
+            processData(apiResult);
         }
     });
 
